@@ -1,0 +1,101 @@
+  .home-child {
+    position: relative;
+    margin: auto;
+    margin-top: 15vh;
+    border-radius: 14px;
+    background-color: #414141;
+    width: 54vw;
+    height: 54vh;
+    overflow: hidden;
+  }
+
+  .lets-get-you {
+    margin: 0;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+    width: 402px;
+  }
+
+  
+  .home-login-wrapper,
+  .home-loginButton {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .home-login-wrapper {
+    flex-direction: row;
+    padding: var(--padding-8xs);
+    white-space: nowrap;
+  }
+  .home-loginButton {
+    cursor: pointer;
+    border: 0;
+    padding: 12px 75px;
+    background-color: var(--color-gainsboro-100);
+    position: absolute;
+    top: 400px;
+    left: 60px;
+    border-radius: var(--br-6xs);
+    flex-direction: row;
+    width: 392px;
+  }
+  
+  .home-loginText {
+    position: relative;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: var(--font-sf-ui-display);
+    color: #3a3a3a;
+    text-align: center;
+  }
+
+.home-signup {
+    position: relative;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: var(--font-sf-ui-display);
+    color: #3a3a3a;
+    text-align: center;
+  }
+  .home-sign-wrapper,
+  .home-signupbutton {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .home-sign-wrapper {
+    flex-direction: row;
+    padding: var(--padding-3xs);
+  
+  }
+  .home-signupbutton {
+    cursor: pointer;
+    border: 0;
+    margin: auto;
+    padding: 12px 100px;
+    background-color: var(--color-gainsboro-100);
+    position: absolute;
+    top: 250px;
+    left: 60px;
+    border-radius: var(--br-6xs);
+    flex-direction: row;
+    width: 392px;
+  }
+
+  .home {
+    position: relative;
+    background-color: #e8e8e8;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-sf-ui-display);
+  }

@@ -1,0 +1,133 @@
+.login-child {
+    position: relative;
+    margin: auto;
+    margin-top: 15vh;
+    border-radius: 14px;
+    background-color: #414141;
+    width: 54vw;
+    height: 70vh;
+    overflow: hidden;
+  }
+  .lets-get-you {
+    margin: 0;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+    width: 402px;
+  }
+  .what-should-we {
+    position: absolute;
+    font-weight: 800;
+  }
+
+  .what-should-we-call-you-wrapper {
+    position: relative;
+    top:  -40px;
+    left: -10px;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-3xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .username {
+    border: 0;
+    font-weight: 800;
+    font-family: var(--font-sf-ui-display);
+    font-size: var(--font-size-xl);
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: var(--color-darkgray);
+    text-align: left;
+    display: inline-block;
+    width: 365px;
+  }
+  .usernameframe {
+    position: absolute;
+    top: 250px;
+    left: 60px;
+    border-radius: var(--br-6xs);
+    background-color: var(--color-gainsboro-100);
+    width: 392px;
+    height: 44px;
+  }
+  .thebestemailcom {
+    border: 0;
+    font-weight: 800;
+    font-family: var(--font-sf-ui-display);
+    font-size: var(--font-size-xl);
+    background-color: transparent;
+    position: absolute;
+    top: 10px;
+    left: 13px;
+    color: var(--color-darkgray);
+    text-align: left;
+    display: inline-block;
+    width: 368px;
+  }
+  .emailframe,
+  .passwordframe {
+    position: absolute;
+    top: 270px;
+    left: 62px;
+    border-radius: var(--br-6xs);
+    background-color: var(--color-gainsboro-100);
+    width: 392px;
+    height: 44px;
+  }
+  .passwordframe {
+    top: 390px;
+  }
+  
+  .login-wrapper,
+  .loginButton {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  
+  .login-wrapper {
+    flex-direction: row;
+    padding: var(--padding-3xs);
+  }
+  
+  .loginButton {
+    cursor: pointer;
+    border: 0;
+    padding: 12px 50px;
+    background-color: var(--color-gainsboro-100);
+    position: absolute;
+    top: 500px;
+    left: 60px;
+    border-radius: var(--br-6xs);
+    flex-direction: row;
+    width: 392px;
+  }
+  
+  .loginText {
+    position: relative;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: var(--font-sf-ui-display);
+    color: #303030;
+    text-align: center;
+  }
+  
+  .login {
+    position: relative;
+    background-color: #e8e8e8;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-white);
+    font-family: var(--font-sf-ui-display);
+  }

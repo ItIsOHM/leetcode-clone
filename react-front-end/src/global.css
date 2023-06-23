@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "SF UI Display";
+  src: url("/public/SFUIDisplay-Bold.ttf");
+  font-weight: 800;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-sf-ui-display: "SF UI Display";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-gainsboro-100: #dadada;
+  --color-darkgray: #959595;
+  --color-white: #fff;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+
+  /* border radiuses */
+  --br-6xs: 7px;
+}
